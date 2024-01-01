@@ -47,5 +47,19 @@ nav {
   background-color: white;
   padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 2rem;
-  text-transform: uppercase;
+}
+
+/* Title Styles */
+
+.title {
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: Fraunces, serif;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
 }
