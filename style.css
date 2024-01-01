@@ -1,0 +1,51 @@
+/* Basic Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+}
+
+header {
+  background-image: url("images/desktop/image-header.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Navbar Styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.5rem 0rem 1.5rem;
+  margin: 0 auto;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.link-container .contact-button {
+  font-family: Fraunces, serif;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+}
