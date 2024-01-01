@@ -18,6 +18,10 @@ header {
   height: 100vh;
 }
 
+.hide-desktop {
+  display: none;
+}
+
 /* Navbar Styles */
 
 nav {
@@ -25,7 +29,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2.5rem 0rem 1.5rem;
-  margin: 0 auto;
 }
 
 .link-container {
@@ -62,4 +65,27 @@ h1 {
   color: white;
   letter-spacing: 0.5rem;
   font-size: 3rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  /* Basic Styles */
+
+  body {
+    position: absolute;
+    width: 100%;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  header {
+    background-image: url("images/mobile/image-header.jpg");
+  }
 }
